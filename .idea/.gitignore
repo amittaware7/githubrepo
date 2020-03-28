@@ -1,0 +1,11 @@
+# Default ignored files
+/workspace.xml
+.idea
+output/
+/.rakeTasks
+/Automation.iml
+/../cucumber.json
+/misc.xml
+/modules.xml
+/inspectionProfiles/Project_Default.xml
+/vcs.xml
