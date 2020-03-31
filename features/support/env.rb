@@ -1,11 +1,11 @@
-$LOAD_PATH.unshift File.join("..", "pages")
+ROOT_DIR = File.join(File.dirname(__FILE__), ['..','..'])
+LIB_DIR = File.join(ROOT_DIR, 'lib')
+HELPERS_DIR = File.join(LIB_DIR, 'helpers')
+$LOAD_PATH.unshift(ROOT_DIR,LIB_DIR,HELPERS_DIR)
 
 require "watir"
 require "page-object"
 require "time"
-# require "sequel"
+require 'web_helper'
 
-libdir = File.dirname(__FILE__)
-$LOAD_PATH.unshift(libdir)
-
-include(PageObject::PageFactory)
+include(PageObject::PageFactory, WebHelper)

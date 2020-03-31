@@ -4,6 +4,5 @@ When (/^user searches for "(.*)"$/) do |searchstring|
 end
 
 When (/^user navigates to (.*)$/) do |x|
-  visit_page(x)
+  visit_page(page_name_for(x))
 end
- 
