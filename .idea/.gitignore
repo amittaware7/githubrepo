@@ -9,3 +9,4 @@ output/
 /modules.xml
 /inspectionProfiles/Project_Default.xml
 /vcs.xml
+Gemfile.lock

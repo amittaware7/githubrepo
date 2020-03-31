@@ -6,6 +6,7 @@ group :default do
   gem 'cucumber'
   gem 'watir'
   gem 'sequel'
+  gem 'selenium-webdriver', '=3.141.0'
 
 
 end
